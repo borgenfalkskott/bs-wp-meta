@@ -1,0 +1,15 @@
+{
+  "name": "borgenfalkskott/bs-wp-meta",
+  "description": "A plugin to sort out all of the meta in your head.",
+  "type": "wordpress-muplugin",
+  "require": {
+    "php": ">=7.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tommyskott",
+      "email": "tommy@borgenfalk.se"
+    }
+  ]
+}
