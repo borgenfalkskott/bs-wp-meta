@@ -1,4 +1,20 @@
 <?php
+  /*
+    Plugin Name:  B&S WordPress Meta
+    Plugin URI:   https://github.com/borgenfalkskott/bs-wp-meta
+    Description:  A plugin to sort out all of the meta in your head.
+    Version:      0.1.0
+    Author:       Borgenfalk & Skott
+    Author URI:   https://borgenfalk.se
+    License:      MIT
+    License URI:  https://github.com/borgenfalkskott/bs-wp-meta/blob/main/LICENSE
+    Text Domain:  bs-wp-meta
+    Domain Path:  /languages
+  */
+
+  defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
+
   add_action('wp_head', function(){
     global $wp;
     $bs_wp_meta_title = esc_attr( wp_title('-', false, 'right') . get_bloginfo('name') );
