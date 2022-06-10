@@ -3,7 +3,7 @@
     Plugin Name:  B&S WordPress Meta
     Plugin URI:   https://github.com/borgenfalkskott/bs-wp-meta
     Description:  A plugin to sort out all of the meta in your head.
-    Version:      0.1.0
+    Version:      0.1.1
     Author:       Borgenfalk & Skott
     Author URI:   https://borgenfalk.se
     License:      MIT
@@ -20,7 +20,7 @@
     $bs_wp_meta_title = esc_attr( wp_title('-', false, 'right') . get_bloginfo('name') );
     $bs_wp_meta_desc = esc_attr( get_bloginfo('description') );
     $bs_wp_meta_author = esc_attr( get_bloginfo('name') );
-    $bs_wp_meta_img = esc_url( get_template_directory_uri() . '/img/og.jpg' );
+    $bs_wp_meta_img = esc_url( get_template_directory_uri() . '/og.jpg' );
     $bs_wp_meta_url = esc_url( home_url($wp->request) );
     $bs_wp_meta_locale = esc_attr( get_locale() );
 
